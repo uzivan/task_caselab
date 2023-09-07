@@ -1,0 +1,5 @@
+SELECT surname
+FROM
+(SELECT * FROM case_lab_task ORDER BY experience DESC LIMIT 2) AS t1
+ORDER BY experience
+LIMIT 1
